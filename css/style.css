@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+@import url("reset.css");
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+body {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  min-width: 1201px;
+  margin: 0px 15px 0px 15px;
+}
+
+.botton:hover {
+  color: #FF9C28;
+}
+
+.botton__footer:hover {
+  color: #ffffff;
+}
+
+.title {
+  font-size: 72px;
+}
+
+.button {
+  font-weight: 700;
+  padding: 30px;
+  color: #ffffff;
+  background-color: #FFAF52;
+  border-radius: 88px;
+  transition: .2s;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 29px #FFAF52;
+  background-color: #FF9C28;
+}
+
+
+
+

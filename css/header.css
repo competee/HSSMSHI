@@ -1,0 +1,31 @@
+.wrapper {
+    margin: 0 auto;
+    width: 1171px;
+    justify-content: column;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    font-style: 24px;
+    padding: 123px 0 123px 0;
+}
+
+.header__body {
+    display: flex;
+    width: 100%;
+}
+.heder__logo {
+    position: relative;
+    bottom: 8px;
+    margin-right: 92px;
+    font-size: 36px;
+    font-style: bold;
+}
+.header__menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 24px;
+}
+

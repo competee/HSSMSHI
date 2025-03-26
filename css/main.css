@@ -1,0 +1,135 @@
+.page {
+
+}
+
+.news__body {
+    display: flex;
+}
+
+.news__action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.title-news__action {
+}
+.text-news__action {
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 50px;
+}
+.text-button-news__action {
+    font-size: 36px;
+    margin: 30px 0px 30px 0px;
+}
+
+.news__img img {
+    border-radius: 90px;
+}
+
+.news__img {
+    width: 541px;
+    height: 395px;
+    background-image: url(/HSSMSHI/img/news.jpg);
+    border-radius: 90px;
+    background-size: cover;
+}
+
+/* galerey */
+
+.galerey__title {
+    margin: 110px;
+    display: flex;
+    justify-content: center;
+}
+.title {
+
+}
+.galerey__photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat();
+    height: 778px;
+    row-gap: 30px;
+    column-gap: 60px;
+}
+.column1 {
+    display: grid;
+    grid-template-rows: 5fr 6fr;
+    row-gap: 30px;
+}
+.column2 {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    row-gap: 30px;
+}
+.column3 {
+    display: grid;
+    grid-template-rows: 2fr 3fr 1fr;
+    row-gap: 30px;
+}
+.item1-galerey__photo {
+    background-image: url(/HSSMSHI/img/galerey/1.1.jpg);
+}
+.item2-galerey__photo {
+    background-image: url(/HSSMSHI/img/galerey/1.2.jpg);
+}
+.item3-galerey__photo {
+    background-image: url(/HSSMSHI/img/galerey/2.1.jpg);
+}
+.item4-galerey__photo {
+    background-image: url(/HSSMSHI/img/galerey/3.1.jpg);
+}
+.item5-galerey__photo {
+    background-image: url(/HSSMSHI/img/galerey/2.2.jpg);
+}
+.item6-galerey__photo {
+    background-image: url(/HSSMSHI/img/galerey/3.2.jpg);
+}
+
+.button {
+}
+.button-galerey__photo {
+    font-size: 27px;
+    margin: 0px;
+}
+.photo {
+    border-radius: 90px;
+    background-size: cover;
+}
+
+/* weare */
+
+.weare {
+}
+.weare__body {
+
+}
+.weare__title {
+    display: flex;
+    justify-content: center;
+    margin: 110px;
+}
+.title {
+}
+.weare__info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.weare__text {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.weare__text > p{
+    margin-bottom: 10px;
+}
+.weare__img {
+    background-image: url(/HSSMSHI/img/pasha.jpg);
+    border-radius: 90px;
+    background-size: cover;
+    background-position: center;
+}
+

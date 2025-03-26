@@ -1,0 +1,49 @@
+.footer {
+    background-color: #FFBA69;
+    margin-top: 165px;
+    padding: 78px 0px 78px 0px;
+}
+
+.footer__body {
+    margin: 0 auto;
+    width: 1171px;
+}
+.header-footer {
+    padding-bottom: 50px;
+}
+.contact {
+}
+.contact__body {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+.text-1item-img-contact__body {
+
+}
+.text-2item-img-contact__body {
+
+}
+.item1-contact__body {
+}
+.item2-contact__body {
+}
+.item3-contact__body {
+}
+
+/* .facebook::before {
+    content: url(/HSSMSHI/img/footer/facebook-logo\ 1.svg);
+} */
+
+.itemimg-contact__body::before  {
+    content: url(/HSSMSHI/img/footer/facebook-logo\ 1.svg);
+    margin-right: 7px;
+}
+
+.itemimg-contact__body {
+    display: flex;
+    align-items: center;
+}
+
+
